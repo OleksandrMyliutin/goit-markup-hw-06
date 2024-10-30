@@ -30,7 +30,7 @@
     <header class="body-header-style">
       <div class="header-container container">
         <nav class="nav-container">
-          <a class="logo-ch" href="./index.html"
+          <a class="logo-style logo-header" href="./index.html"
             >Web<span class="studio_color">Studio</span></a
           >
           <ul class="list-menu">
@@ -47,22 +47,135 @@
             </li>
           </ul>
         </nav>
-        <address class="address">
-          <ul class="address-menu">
+        <address class="contacts">
+          <ul class="contacts-menu">
             <li>
               <a
-                class="address-list"
+                class="contacts-list"
                 href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-list" href="tel:+110001111111"
+              <a class="contacts-list" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button type="button" class="header-menu">
+          <svg height="24" width="24">
+            <use
+              class="menu-icon"
+              href="./images/icons.svg#icon-header-menu-btn"
+            ></use>
+          </svg>
+        </button>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="mobile-menu-container container">
+          <button type="button" class="mobile-menu-close">
+            <svg
+              height="8"
+              width="8"
+              class="icon-close-black-18dp"
+            >
+              <use
+                href="./images/icons.svg#icon-close-black-18dp"
+              ></use>
+            </svg>
+          </button>
+          <nav class="mobile-nav">
+            <ul class="list-mobile-menu">
+              <li>
+                <a
+                  class="nav-mobile-list mobile-active"
+                  href="./index.html"
+                  >Studio</a
+                >
+              </li>
+              <li>
+                <a class="nav-mobile-list" href="">Portfolio</a>
+              </li>
+              <li>
+                <a class="nav-mobile-list" href="">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-contacts">
+            <ul class="mobile-contacts-menu">
+              <li>
+                <a
+                  class="contacts-mobile-list"
+                  href="tel:+110001111111"
+                  ><span>+11 (000) 111-11-11</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="contacts-mobile-list"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-links">
+            <li class="social-link-item">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="link"
+              >
+                <svg class="svg-icons" width="24" height="24">
+                  <use
+                    href="./images/icons.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://x.com/?lang=uk"
+                target="_blank"
+                class="link"
+              >
+                <svg class="svg-icons" width="24" height="24">
+                  <use
+                    href="./images/icons.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="link"
+              >
+                <svg class="svg-icons" width="24" height="24">
+                  <use
+                    href="./images/icons.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-item">
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                class="link"
+              >
+                <svg class="svg-icons" width="24" height="24">
+                  <use
+                    href="./images/icons.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main class="main-page">
@@ -163,8 +276,8 @@
                 height="260"
               />
               <div class="title-under-img">
-                <h3 class="title-third">Mark Guerrero</h3>
-                <p class="par-adv">Product Designer</p>
+                <h3 class="title-third-team">Mark Guerrero</h3>
+                <p class="par-team">Product Designer</p>
                 <ul class="social-links">
                   <li class="social-link-item">
                     <a
@@ -245,8 +358,8 @@
                 height="260"
               />
               <div class="title-under-img">
-                <h3 class="title-third">Tom Ford</h3>
-                <p class="par-adv">Frontend Developer</p>
+                <h3 class="title-third-team">Tom Ford</h3>
+                <p class="par-team">Frontend Developer</p>
                 <ul class="social-links">
                   <li class="social-link-item">
                     <a
@@ -327,8 +440,8 @@
                 height="260"
               />
               <div class="title-under-img">
-                <h3 class="title-third">Camila Garcia</h3>
-                <p class="par-adv">Marketing</p>
+                <h3 class="title-third-team">Camila Garcia</h3>
+                <p class="par-team">Marketing</p>
                 <ul class="social-links">
                   <li class="social-link-item">
                     <a
@@ -409,8 +522,8 @@
                 height="260"
               />
               <div class="title-under-img">
-                <h3 class="title-third">Daniel Wilson</h3>
-                <p class="par-adv">UI Designer</p>
+                <h3 class="title-third-team">Daniel Wilson</h3>
+                <p class="par-team">UI Designer</p>
                 <ul class="social-links">
                   <li class="social-link-item">
                     <a
@@ -505,8 +618,8 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Banking App</h3>
-                <p class="par-adv">App</p>
+                <h3 class="title-third-team">Banking App</h3>
+                <p class="par-team">App</p>
               </div>
             </li>
             <li class="item">
@@ -524,8 +637,10 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Cashless Payment</h3>
-                <p class="par-adv">Marketing</p>
+                <h3 class="title-third-team">
+                  Cashless Payment
+                </h3>
+                <p class="par-team">Marketing</p>
               </div>
             </li>
             <li class="item">
@@ -543,8 +658,8 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Meditation App</h3>
-                <p class="par-adv">App</p>
+                <h3 class="title-third-team">Meditation App</h3>
+                <p class="par-team">App</p>
               </div>
             </li>
             <li class="item">
@@ -562,8 +677,8 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Taxi Service</h3>
-                <p class="par-adv">Marketing</p>
+                <h3 class="title-third-team">Taxi Service</h3>
+                <p class="par-team">Marketing</p>
               </div>
             </li>
             <li class="item">
@@ -581,8 +696,10 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Screen Illustrations</h3>
-                <p class="par-adv">Design</p>
+                <h3 class="title-third-team">
+                  Screen Illustrations
+                </h3>
+                <p class="par-team">Design</p>
               </div>
             </li>
             <li class="item">
@@ -600,15 +717,15 @@
                 </p>
               </div>
               <div class="list-image-portfolio">
-                <h3 class="title-third">Online Courses</h3>
-                <p class="par-adv">Marketing</p>
+                <h3 class="title-third-team">Online Courses</h3>
+                <p class="par-team">Marketing</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer-page">
+    <!-- <footer class="footer-page">
       <div class="footer-container container">
         <div class="prescription">
           <a class="logo-ch" href="./index.html"
@@ -704,8 +821,8 @@
           </form>
         </div>
       </div>
-    </footer>
-    <div class="modal-overlay">
+    </footer> -->
+    <!-- <div class="modal-overlay">
       <div class="modal">
         <button type="button" class="btn-modal-close">
           <svg
@@ -818,6 +935,6 @@
           </button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
