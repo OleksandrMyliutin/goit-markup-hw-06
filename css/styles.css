@@ -411,14 +411,24 @@ a{
                    /* hero section */
 .hero {
     padding: 72px 0px;
-    max-width: 320px;
+    /* max-width: 320px; */
+    margin-inline: auto;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
+        url(../images/hero-background-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+@media (min-resolution: 192dpi){
+    .hero{
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background-mobile@2x.jpg);
+    }
 }
 
 .h-hero {
@@ -470,7 +480,11 @@ a{
 @media screen and (min-width: 768px) {
     .hero{
         padding: 112px 0px;
-        max-width: 768px;
+        max-width: 1440px;
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background-table.jpg);
     }
 
     .h-hero{
@@ -478,14 +492,34 @@ a{
         line-height: 1.07;
         padding: 0;
     }
+
+    @media (min-resolution: 192dpi){
+        .hero{
+            background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-background-table@2.jpg);
+        }
+    }
 }
 
 @media screen and (min-width: 1158px) {
     .hero {
         padding-top: 191px;
         padding-bottom: 188px;
-        max-width: 768px;
-        max-width: 1440px;
+        background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/hero-background-desktop.jpg);
+    }
+
+    @media (min-resolution: 192dpi) {
+        .hero {
+            background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/hero-background-desktop@2.jpg);
+        }
     }
 }
 
