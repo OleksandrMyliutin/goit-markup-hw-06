@@ -331,9 +331,7 @@ a{
         padding: 24px 0;
     }
 
-    .active {
-        color: #404bbf;
-    }
+    
 
     .nav-list {
         display: block;
@@ -347,6 +345,10 @@ a{
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .active {
+        color: #404bbf;
     }
 
     .active::after {
@@ -409,7 +411,7 @@ a{
                    /* hero section */
 .hero {
     padding: 72px 0px;
-    max-width: 320px;
+    min-width: 320px;
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -468,7 +470,7 @@ a{
 @media screen and (min-width: 768px) {
     .hero{
         padding: 112px 0px;
-        max-width: 768px;
+        min-width: 768px;
     }
 
     .h-hero{
