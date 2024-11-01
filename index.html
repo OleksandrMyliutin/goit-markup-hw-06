@@ -63,7 +63,7 @@
             </li>
           </ul>
         </address>
-        <button type="button" class="header-menu">
+        <button type="button" class="header-menu" data-menu-open>
           <svg height="24" width="24">
             <use
               class="menu-icon"
@@ -73,9 +73,13 @@
         </button>
       </div>
 
-      <div class="mobile-menu">
+      <div class="mobile-menu" data-menu>
         <div class="mobile-menu-container container">
-          <button type="button" class="mobile-menu-close">
+          <button
+            type="button"
+            class="mobile-menu-close"
+            data-menu-close
+          >
             <svg
               height="8"
               width="8"
@@ -121,53 +125,69 @@
               </li>
             </ul>
           </address>
-          <ul class="social-links">
-            <li class="social-link-item">
+          <ul class="social-mobile-links">
+            <li class="social-mobile-links">
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
-                class="link"
+                class="link-mobile"
               >
-                <svg class="svg-icons" width="24" height="24">
+                <svg
+                  class="svg-mobile-icons"
+                  width="24"
+                  height="24"
+                >
                   <use
                     href="./images/icons.svg#icon-instagram"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-item">
+            <li class="social-mobile-links">
               <a
                 href="https://x.com/?lang=uk"
                 target="_blank"
-                class="link"
+                class="link-mobile"
               >
-                <svg class="svg-icons" width="24" height="24">
+                <svg
+                  class="svg-mobile-icons"
+                  width="24"
+                  height="24"
+                >
                   <use
                     href="./images/icons.svg#icon-twitter"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-item">
+            <li class="social-mobile-links">
               <a
                 href="https://www.facebook.com/"
                 target="_blank"
-                class="link"
+                class="link-mobile"
               >
-                <svg class="svg-icons" width="24" height="24">
+                <svg
+                  class="svg-mobile-icons"
+                  width="24"
+                  height="24"
+                >
                   <use
                     href="./images/icons.svg#icon-facebook"
                   ></use>
                 </svg>
               </a>
             </li>
-            <li class="social-link-item">
+            <li class="social-mobile-links">
               <a
                 href="https://www.linkedin.com"
                 target="_blank"
-                class="link"
+                class="link-mobile"
               >
-                <svg class="svg-icons" width="24" height="24">
+                <svg
+                  class="svg-mobile-icons"
+                  width="24"
+                  height="24"
+                >
                   <use
                     href="./images/icons.svg#icon-linkedin"
                   ></use>
@@ -184,7 +204,11 @@
           <h1 class="h-hero">
             Effective Solutions for Your Business
           </h1>
-          <button class="hero-button style-button" type="button">
+          <button
+            class="hero-button style-button"
+            type="button"
+            data-modal-open
+          >
             Order Service
           </button>
         </div>
@@ -938,9 +962,13 @@
         </div>
       </div>
     </footer>
-    <div class="modal-overlay modal-is-open">
+    <div class="modal-overlay" data-modal>
       <div class="modal">
-        <button type="button" class="btn-modal-close">
+        <button
+          type="button"
+          class="btn-modal-close"
+          data-modal-close
+        >
           <svg
             width="8"
             height="8"
@@ -1052,5 +1080,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
