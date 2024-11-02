@@ -857,7 +857,10 @@ a{
     flex-direction: column;
     justify-content: center;
 }
-
+.footer-container .logo-ch {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .prescription {
     /* margin-right: 120px; */
     margin-bottom: 72px;
@@ -1047,7 +1050,12 @@ a{
     }
 
     .prescription {
-        margin-right: 120px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .social-media{
+        margin-bottom: 0;
     }
 }
 
